@@ -1,6 +1,6 @@
     const courses = [
       { name: "Calculus - 1", code: "MA1110", credit: "1 Credit", segment: "1-2", day: "Monday", date: "2026-07-27", start: "10:00", end: "10:55" },
-      { name: "Calculus - 1", code: "MA1110", credit: "1 Credit", segment: "1-2", day: "Wednesday", date: "2026-07-29", start: "09:00", end: "09:55" },
+      { name: "Calculus - 1", code: "MA1110", credit: "1 Credit", segment: "1-2", day: "Wednesday", date: "2026-07-29", start: "08:59", end: "09:55" },
       { name: "Calculus - 1", code: "MA1110", credit: "1 Credit", segment: "1-2", day: "Thursday", date: "2026-07-30", start: "11:00", end: "11:55" },
       { name: "Calculus - 1", code: "MA1110", credit: "1 Credit", segment: "1-2", day: "Monday", date: "2026-08-03", start: "10:00", end: "10:55" },
       { name: "Calculus - 1", code: "MA1110", credit: "1 Credit", segment: "1-2", day: "Wednesday", date: "2026-08-05", start: "09:00", end: "09:55" },
