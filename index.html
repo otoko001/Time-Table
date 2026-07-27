@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Academic Schedule - Confer Theme</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header Banner -->
+    <header>
+      <div class="search-bar-wrapper">
+        <div class="search-bar">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#a19ec2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="course-search" placeholder="Search course name..." autocomplete="off" />
+        </div>
+      </div>
+      <span class="sub-title">/// ACADEMIC TIMETABLE PORTAL</span>
+      <h1 class="main-title">ES COURSE <span>SCHEDULE</span></h1>
+      <div class="live-time-bar">
+        <span class="pulse-dot"></span>
+        <span id="clock-display">Loading current time...</span>
+      </div>
+    </header>
+
+    <!-- Filters Bar (Confer Style) -->
+    <div class="filter-wrapper">
+      <!-- Days Tabs -->
+      <div class="day-tabs" id="day-tabs">
+        <button class="tab-btn active" data-day="all">ALL DAYS</button>
+        <button class="tab-btn" data-day="Monday">MON</button>
+        <button class="tab-btn" data-day="Tuesday">TUE</button>
+        <button class="tab-btn" data-day="Wednesday">WED</button>
+        <button class="tab-btn" data-day="Thursday">THU</button>
+        <button class="tab-btn" data-day="Friday">FRI</button>
+      </div>
+
+      <!-- Segment Pills -->
+      <div class="segment-filters" id="segment-pills">
+        <span class="segment-label">Segment:</span>
+        <button class="seg-pill active" data-seg="all">All</button>
+        <button class="seg-pill" data-seg="1-2">Seg 1-2</button>
+        <button class="seg-pill" data-seg="3-4">Seg 3-4</button>
+        <button class="seg-pill" data-seg="3-6">Seg 3-6</button>
+        <button class="seg-pill" data-seg="1-6">Seg 1-6</button>
+      </div>
+    </div>
+
+    <!-- Schedule List -->
+    <main class="schedule-list" id="schedule-container"></main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
